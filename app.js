@@ -6,7 +6,7 @@ const app = express();
 
 //Handling GET request
 app.get('/', (req, res) => {
-    res.send('A simple Node App is' + 'running on this server')
+    res.send('Esta mensagem foi criada por Julio Gomes Fernandez Kohlhauf')
     res.end() })
 
 // Port Number
